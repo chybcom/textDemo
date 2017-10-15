@@ -19,6 +19,9 @@
   
     self.view.backgroundColor = [UIColor blueColor];
     
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    
+    [self.view addSubview:button];
     
     
 }
