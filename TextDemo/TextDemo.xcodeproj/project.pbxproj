@@ -15,6 +15,7 @@
 		52C362F21F93839800B1C7FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C362F11F93839800B1C7FC /* main.m */; };
 		52C362FC1F93839800B1C7FC /* TextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C362FB1F93839800B1C7FC /* TextDemoTests.m */; };
 		52C363071F93839800B1C7FC /* TextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C363061F93839800B1C7FC /* TextDemoUITests.m */; };
+		52C363161F9387DD00B1C7FC /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C363151F9387DD00B1C7FC /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		52C363021F93839800B1C7FC /* TextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C363061F93839800B1C7FC /* TextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDemoUITests.m; sourceTree = "<group>"; };
 		52C363081F93839800B1C7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C363141F9387DD00B1C7FC /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		52C363151F9387DD00B1C7FC /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				52C362E31F93839800B1C7FC /* AppDelegate.m */,
 				52C362E51F93839800B1C7FC /* ViewController.h */,
 				52C362E61F93839800B1C7FC /* ViewController.m */,
+				52C363141F9387DD00B1C7FC /* OneViewController.h */,
+				52C363151F9387DD00B1C7FC /* OneViewController.m */,
 				52C362E81F93839800B1C7FC /* Main.storyboard */,
 				52C362EB1F93839800B1C7FC /* Assets.xcassets */,
 				52C362ED1F93839800B1C7FC /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				52C362E71F93839800B1C7FC /* ViewController.m in Sources */,
 				52C362F21F93839800B1C7FC /* main.m in Sources */,
 				52C362E41F93839800B1C7FC /* AppDelegate.m in Sources */,
+				52C363161F9387DD00B1C7FC /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
